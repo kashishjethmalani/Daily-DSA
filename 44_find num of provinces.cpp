@@ -32,7 +32,7 @@ int findNumOfProvinces(vector<vector<int>> &roads, int n)
     int ans = 0;
     for (int i = 0; i < n; i++)
     {
-        if (vis[0] == 0)
+        if (vis[i] == 0)
         {
             ans++;
             dfs(i, adj, vis);
