@@ -1,3 +1,6 @@
+
+https://practice.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1
+
 class Solution:
     def knapSack(self, num_items, max_weight, values, weights):
         # Create a dynamic programming table to store the maximum value for each weight
